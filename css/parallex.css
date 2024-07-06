@@ -1,0 +1,74 @@
+
+
+.parallax { 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#text {
+    position: absolute;
+    font-size: 5em;
+    color: white;
+    text-shadow: 2px 4px 5px black ;
+}
+
+#text2 {
+    margin-top: 190px;
+    position: absolute;
+    font-size: 7em;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 4px 5px black ;
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.parallax img#cloud-left {
+    transform: translateX(-270px);
+}
+
+.parallax img#cloud-right {
+    transform: translateX(1100px);
+}
+
+.parallax img#wayang-left {
+    position: fixed;
+    transform: translateX(-682px);
+}
+
+.parallax img#wayang-right {
+    position: fixed;
+    transform: translateX(1200px);
+}
+
+.description {
+    position: relative;
+    background: black;
+    padding: 30px 100px;
+}
+
+.description h2 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font: 1em;
+    color: white;
+    font-weight: 100;
+    text-align: justify;
+}
+
